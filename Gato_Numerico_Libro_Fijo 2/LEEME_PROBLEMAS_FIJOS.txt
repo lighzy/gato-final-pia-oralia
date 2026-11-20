@@ -1,0 +1,9 @@
+GATO NUMÉRICO — BANCO FIJO Y EVIDENCIAS (NOVIEMBRE 2026)
+
+- Cada uno de los 28 métodos disponibles tiene una sola ficha fija (variante 0), sin modificaciones numéricas aleatorias.
+- Los niveles Fácil, Medio y Difícil mantienen EXACTAMENTE los datos, los pasos y los subintervalos de la ficha; varía únicamente la cantidad de comprobaciones y resultados solicitados. El solucionario contiene los tres niveles.
+- Durante una partida no se repite un método, incluso si se pierde un reto. El orden sí es aleatorio.
+- Los problemas están basados en el banco del equipo y en el libro de Zamora, Said y del Ángel (2020). IMPORTANTE: algunas fichas del banco fueron construidas a partir de una fórmula del libro y NO son reproducciones literales de sus ejemplos impresos. El solucionario distingue la fuente declarada; comprobar con el libro antes de presentar como ejemplo textual.
+- El servidor valida regenerando internamente la ficha sin azar; no confía en variantes enviadas por el cliente.
+- Las respuestas (comp. y resultado) están incluidas en el solucionario aparte; no se entregan por GET /api/reto en partidas normales.
+- Se requiere subir estos archivos a GitHub para que Render actualice la versión publicada.

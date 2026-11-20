@@ -1,0 +1,16 @@
+GATO NUMÉRICO V8 — CAMBIOS
+
+1. Catálogo de 28 métodos: NO existe una opción genérica Runge-Kutta de cuarto orden.
+   Las únicas variantes de cuarto orden son por Simpson 1/3 y por Simpson 3/8.
+2. Los nombres internos, el banco ANCLAS y el catálogo JS usan los nombres completos.
+3. El campo COMPROBACIÓN muestra únicamente la variable, fórmula o suma que debes calcular.
+   Ejemplo: debajo del título Comprobación aparecerá k1 = h·f(t0, y0).
+   La evaluación numérica y la tolerancia se mantienen.
+4. Se modificó la URL del JS para evitar caché viejo en el navegador.
+5. Se incluyeron archivos para desplegar en Render.
+
+PARA ACTUALIZAR RENDER:
+- Sube a GitHub los archivos extraídos de ESTA versión, reemplazando app.py, metodos.py,
+  problemas_libro.py, static/js/game.js y templates/index.html.
+- En Render usa Manual Deploy > Deploy latest commit.
+- Si ves la versión anterior, recarga la página con Ctrl+Shift+R (Cmd+Shift+R en Mac).
